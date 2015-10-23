@@ -1,0 +1,57 @@
+#container {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 4px solid #000000;
+}
+#header {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 4px solid #000000;
+}
+#container2 {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 4px solid #000000;
+    overflow: auto;
+   padding:10px;
+    margin:10px
+
+
+
+}
+#userInputFood{
+
+    border: 4px solid #000000;
+    margin: 10px;
+    width:25%;
+    float: left;
+    margin-left: 2px ;
+}
+#userInputPurchase{
+
+    border: 4px solid #000000;
+    margin: 10px;
+    width:25%;
+    float: left;
+    margin-left: 2px ;
+
+
+}#userInputExpiration{
+
+     border: 4px solid #000000;
+     margin: 10px;
+     width:25%;
+     float: left;
+     margin-left: 2px ;
+ }
+ #number{
+
+     border: 4px solid #000000;
+     margin: 10px;
+     width:25%;
+     float: left;
+     margin-left: 2px ;
+ }

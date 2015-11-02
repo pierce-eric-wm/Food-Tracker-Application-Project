@@ -3,86 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Tracker</title>
-    <div id="header">
-    <center><h1>FOOD TRACKER</h1></center>
-    </div>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="jquery-2.1.4.min(1).js"></script>
     <script src="script.js"></script>
 </head>
 <body>
-
-<div id="container">
-<center>
-    <font size="5px">
-   <form>
-
-
-            <label>Food</label>
-
-            <input type="text" name="foodName" id="food" value="">
-
-
-            <label>Date Of Purchase</label>
-
-            <input type="date" name="purchase" id="purchase" value="">
-
-
-            <label>Expiration Date</label>
-        <input type="date" name="expiration" id=" expiration" value="">
-
-        <button onClick="newRow()" id="button">Submit</button>
+<div id="header">
+    <header>
+    <center><h1>FOOD TRACKER</h1></center>
+    </header>
+</div>
+<div id="form">
+<form>
+    Food Name:
+    <input type="text" id="foodName">
+    Description:
+    <input type="text" id="description">
+    Purchase Date:
+    <input type='date' id="purchase">
+    Expiration Date:
+    <input type='date' id="expire">
+    <button type="button" onclick="newRow()">Submit</button>
+</div>
 </form>
-</font>
-</center>
-</div>
-<div id="container2">
-    <!-- First item -->
-<div id="inputNumber">
-<center>
-<font size="5px">
-<table id="number">
-<tr>
-<td> Item Number:</td>
-</tr>
-</table>
-</font>
-</div>
-    <!-- next item -->
-    <div id="userInputFood">
-    <center>
-    <font size="5px">
-    <table id="food">
+<div id="table">
+<table id="myTable">
+    <thead>
     <tr>
-    <td>Food:</td>
+        <th><strong> Food Name <br>(What is it called?)</strong></th>
+        <th><strong> Description <br>(Qualities) </strong></th>
+        <th><strong> Purchase Date <br>(YYMMDD)</strong></th>
+        <th><strong>Expiration Date (YYMMDD)</strong></th>
     </tr>
-    </table>
-    </font>
-    </center>
-    </div>
-    <!-- next item -->
-            <div id="userInputPurchase">
-            <center><font size="5px">
-            <table id="purchase">
-            <tr>
-            <td>Purchase:</td>
-            </tr>
-            </table>
-            </font>
+    </thead>
+    <tbody>
 
-            </center>
-            </div>
-    <!-- next item -->
-<div id="userInputExpiration">
-    <center><font size="5px">
-        <table id="exp">
-        <tr>
-            <td>Expiration:</td>
-        </tr>
-        </table>
-    </font>
-    </center>
-</div>
+    </tbody>
+</table>
 </div>
 </body>
-</html>

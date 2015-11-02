@@ -1,58 +1,52 @@
+body {
+    background-image: url("http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg");
+}
 #container {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000;
+    border: 5px solid #fff;
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
 }
-
 #header {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000;
+    border: 5px solid #fff;
+    color: #fff;
 }
-
-#container2 {
+#table {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000;
+    border: 5px solid #fff;
     overflow: auto;
     padding: 10px;
-    margin-left: auto;
+    text-align: center;
+    color: #fff;
+}
+
+#form{
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid #fff;
+    overflow: auto;
+    padding: 10px;
+    text-align:center;
+    color: #fff;
+}
+
+thead{
+    position:center;
+}
+th{
+    width:200px;
+}
+#myTable{
+    text-align:center;
     margin-right: auto;
-}
-
-#userInputFood {
-    border: 4px solid #000;
-    margin: 10px;
-    width: 23%;
-    float: left;
-    margin-left: 5px;
-}
-
-#userInputPurchase {
-    border: 4px solid #000;
-    margin: 10px;
-    width: 23%;
-    float: left;
-    margin-left: 5px;
-}
-
-#userInputExpiration {
-    border: 4px solid #000;
-    margin: 10px;
-    width: 23%;
-    float: left;
-    margin-left: 5px;
-}
-
-#inputNumber {
-    border: 4px solid #000;
-    margin: 10px;
-    width: 23%;
-    float: left;
-    margin-left: 5px;
+    margin-left: auto;
 }
